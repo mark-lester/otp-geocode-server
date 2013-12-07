@@ -13,7 +13,7 @@ It runs on port 8088, hack that to change.
 The program expects HTTP requests, for '/geocoder/geocode?address=XXXX', it returns an XML list of records, 
 
 e.g.
-/geocoder/goecode?address=dhak
+/geocoder/geocode?address=dhak
 
 might return
 
