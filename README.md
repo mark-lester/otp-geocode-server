@@ -10,9 +10,12 @@ sudo perl -MCPAN -e 'install "HTTP::Server::Simple::CGI Compress::Zlib Text::CSV
 Then copy your stops.txt file into the current directory.
 It runs on port 8088, hack that to change.
 
-The program expects HTTP requests, for '/geocoder/geocode?address=XXXX', it returns an XML list of records, e.g.
+The program expects HTTP requests, for '/geocoder/geocode?address=XXXX', it returns an XML list of records, 
+
+e.g.
 /geocoder/goecode?address=dhak
-returns 
+
+might return
 
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <geocoderResults>
